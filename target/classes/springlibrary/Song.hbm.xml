@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="springlibrary.entities.Song" table="song" schema="songLibrary">
+        <id name="id" type="java.lang.Long">
+            <column name="id"/>
+            <generator class="identity"/>
+        </id>
+        <many-to-one class="springlibrary.entities.Author" fetch="join" name="author" lazy="false">
+            <column name="author_id" not-null="true"/>
+        </many-to-one>
+
+        <many-to-one class="springlibrary.entities.Genre" fetch="join" name="genre" lazy="false">
+            <column name="genre_id" not-null="true"/>
+        </many-to-one>
+
+        <many-to-one class="springlibrary.entities.Album" fetch="join" name="album" lazy="false">
+            <column name="album_id" not-null="true"/>
+        </many-to-one>
+
+        <many-to-one class="springlibrary.entities.PublishDate" fetch="join" name="publishdate" lazy="false">
+            <column name="publishdate_id" not-null="true"/>
+        </many-to-one>
+
+
+        <property name="name" type="string">
+            <column name="name" not-null="true"/>
+        </property>
+
+        <property name="content" type="binary">
+            <column name="content" not-null="true"/>
+        </property>
+        <property name="time" type="string">
+            <column name="time" not-null="true"/>
+        </property>
+
+        <property name="image" type="binary">
+            <column name="image" not-null="true"/>
+        </property>
+
+        <property name="rating" type="java.lang.Integer">
+            <column name="rating"/>
+        </property>
+        <property name="voteCount" type="java.lang.Long">
+            <column name="vote_count"/>
+        </property>
+
+    </class>
+</hibernate-mapping>
