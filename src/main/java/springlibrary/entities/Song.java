@@ -13,10 +13,10 @@ public class Song {
     private byte[] image;
     private Integer rating;
     private Long voteCount;
-    private int genre;
-    private int album;
-    private int author;
-    private int publishdate;
+    private Genre genre;
+    private Album album;
+    private Author author;
+    private PublishDate publishdate;
 
     public int getId() {
         return id;
@@ -74,35 +74,35 @@ public class Song {
         this.voteCount = voteCount;
     }
 
-    public int getGenre() {
+    public Genre getGenre() {
         return genre;
     }
 
-    public void setGenre(int genre) {
+    public void setGenre(Genre genre) {
         this.genre = genre;
     }
 
-    public int getAlbum() {
+    public Album getAlbum() {
         return album;
     }
 
-    public void setAlbum(int album) {
+    public void setAlbum(Album album) {
         this.album = album;
     }
 
-    public int getAuthor() {
+    public Author getAuthor() {
         return author;
     }
 
-    public void setAuthor(int author) {
+    public void setAuthor(Author author) {
         this.author = author;
     }
 
-    public int getPublishdate() {
+    public PublishDate getPublishdate() {
         return publishdate;
     }
 
-    public void setPublishdate(int publishdate) {
+    public void setPublishdate(PublishDate publishdate) {
         this.publishdate = publishdate;
     }
 
@@ -137,10 +137,10 @@ public class Song {
         result = 31 * result + Arrays.hashCode(image);
         result = 31 * result + (rating != null ? rating.hashCode() : 0);
         result = 31 * result + (voteCount != null ? voteCount.hashCode() : 0);
-        result = 31 * result + genre;
-        result = 31 * result + album;
-        result = 31 * result + author;
-        result = 31 * result + publishdate;
+        result = 31 * result + genre.hashCode();
+        result = 31 * result + album.hashCode();
+        result = 31 * result + author.hashCode();
+        result = 31 * result + publishdate.hashCode();
         return result;
     }
 }

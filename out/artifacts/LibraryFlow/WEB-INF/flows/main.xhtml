@@ -11,5 +11,81 @@
 
 <ui:composition template="/WEB-INF/templates/library.xhtml">
 
+      <ui:define name="title">
+            #{msg.song_list}
+      </ui:define>
+
+      <ui:define name="content">
+
+            <h:form id="songsForm">
+
+
+                  <p:dataGrid rowIndexVar="rowIndex" columns="2" lazy="true" var="b" value="${libraryFacade.songs}"  id="songsList" styleClass="songs_list"  paginator="true" rows="4" paginatorPosition="bottom"
+                              rowsPerPageTemplate="4,10,20" paginatorTemplate="{RowsPerPageDropdown} {PageLinks}"  paginatorAlwaysVisible="true" emptyMessage="">
+
+
+                        <div class="item">
+                              <div class="image-info">
+
+                                    <h:outputLink styleClass="content_link" target="_blank">
+                                          <p:graphicImage width="110" height="150"/>
+                                    </h:outputLink>
+
+                                    <p:panelGrid id="ratingPanel" columns="2">
+
+                                          <p:rating id="rating" value="#{s.rating}" styleClass="rating" cancel="false" stars="5"/>
+                                          <p:outputLabel id="voteCount" value="(#{s.voteCount})" styleClass="vote-count"/>
+
+                                    </p:panelGrid>
+                              </div>
+
+                              <div class="info">
+                                    <div class="song_name">
+                                          <h:outputLink id="songName" styleClass="title" target="_blank">
+                                                #{s.name}
+                                          </h:outputLink>
+
+                                    </div>
+                                    <span>#{s.author}</span>
+                                    <p><strong>#{msg.time}:</strong>#{s.time}</p>
+                                    <p><strong>#{msg.album}</strong>#{s.album}</p>
+                                    <p><strong>#{msg.publish_date}</strong>#{s.publishdate}</p>
+
+                              </div>
+
+                              <h:outputLink styleClass="mr" target="_blank">
+                                    <p class="read">#{msg.read}</p>
+                              </h:outputLink>
+
+                              <h:outputLink styleClass="mr" target="_blank">
+                                    <p class="download">#{msg.download}</p>
+                              </h:outputLink>
+
+                              <p:commandLink styleClass="mr" title="#{msg.edit_song}">
+                                    <p class="edit">#{msg.edit}</p>
+                              </p:commandLink>
+
+                              <p:commandLink styleClass="delete-button" title="#{msg.delete_song}" type="button">
+                                    <p class="delete">#{msg.delete}</p>
+                              </p:commandLink>
+                        </div>
+
+                  </p:dataGrid>
+
+            </h:form>
+
+      </ui:define>
+
+      <ui:define name="song_count">
+            <div class="box-sh">
+                  <h1><p:outputLabel id="songsCount" value="#{msg.song_count} : #{libraryFacade.songs.size()}"/> </h1>
+
+                  <h:form id="add-action">
+                        <p:commandLink>
+                              <h:outputText value="#{msg.add_song}" title="#{msg.add_song}"/>
+                        </p:commandLink>
+                  </h:form>
+            </div>
+      </ui:define>
 </ui:composition>
 </html>
