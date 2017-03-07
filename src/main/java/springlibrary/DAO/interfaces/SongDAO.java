@@ -12,4 +12,5 @@ public interface SongDAO {
     List<Song> getSongs(Author author);
     List<Song> getSongs(String songName);
     List<Song> getSongs(Genre genre);
+    List<Song> getSongs(Character letter);
 }

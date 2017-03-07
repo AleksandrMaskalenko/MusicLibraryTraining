@@ -3,6 +3,7 @@ package springlibrary.objects;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 import springlibrary.enums.SearchType;
 
@@ -11,10 +12,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Component
+@Scope("singleton")
 public class Utils {
 
     private Map<String, SearchType> searchTypeList = new HashMap<String, SearchType>();
-    private SearchType selectedSearchType = SearchType.TITLE;
+    private String searchString;
 
     @Autowired
     private MessageSource msg;
@@ -32,11 +34,16 @@ public class Utils {
         return searchTypeList;
     }
 
-    public SearchType getSelectedSearchType() {
-        return selectedSearchType;
-    }
+
     public void setSearchTypeList(Map<String, SearchType> searchTypeList) {
         this.searchTypeList = searchTypeList;
     }
 
+    public String getSearchString() {
+        return searchString;
+    }
+
+    public void setSearchString(String searchString) {
+        this.searchString = searchString;
+    }
 }

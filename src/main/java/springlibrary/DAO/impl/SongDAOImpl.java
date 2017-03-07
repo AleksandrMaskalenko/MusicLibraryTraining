@@ -16,14 +16,14 @@ import springlibrary.entities.Song;
 import java.util.List;
 
 @Component
-public class SongDAOimpl implements SongDAO {
+public class SongDAOImpl implements SongDAO {
 
     @Autowired
     private SessionFactory sessionFactory;
 
     private ProjectionList songProjection;
 
-    public SongDAOimpl() {
+    public SongDAOImpl() {
         songProjection = Projections.projectionList();
         songProjection.add(Projections.property("id"), "id");
         songProjection.add(Projections.property("name"), "name");
@@ -38,15 +38,17 @@ public class SongDAOimpl implements SongDAO {
 
     }
 
-    @Transactional
+
     @Override
+    @Transactional
     public List<Song> getSongs() {
         List<Song> songs = createSongList(createSongCriteria());
         return songs;
     }
 
-    @Transactional
+
     @Override
+    @Transactional
     public List<Song> getSongs(Author author) {
         List<Song> songs = createSongList(createSongCriteria().add(Restrictions.ilike
                 ("author.name", author.getName(), MatchMode.ANYWHERE)));
@@ -55,8 +57,9 @@ public class SongDAOimpl implements SongDAO {
     }
 
 
-    @Transactional
+
     @Override
+    @Transactional
     public List<Song> getSongs(String songName) {
         List<Song> songs = createSongList(createSongCriteria().add(Restrictions.ilike
                 ("s.name", songName, MatchMode.ANYWHERE)));
@@ -65,12 +68,21 @@ public class SongDAOimpl implements SongDAO {
     }
 
 
-    @Transactional
+
     @Override
+    @Transactional
     public List<Song> getSongs(Genre genre) {
         List<Song> songs = createSongList(createSongCriteria().add(Restrictions.ilike
-                ("author.name", genre.getName(), MatchMode.ANYWHERE)));
+                ("genre.name", genre.getName())));
 
+        return songs;
+    }
+
+    @Override
+    @Transactional
+    public List<Song> getSongs(Character letter) {
+        List<Song> songs = createSongList(createSongCriteria().add(Restrictions.ilike
+                ("s.name", letter.toString(), MatchMode.START)));
         return songs;
     }
 
@@ -87,9 +99,8 @@ public class SongDAOimpl implements SongDAO {
         criteria.createAlias("s.album", "album");
     }
 
-    private List<Song> createSongList(DetachedCriteria songListCriteria) {
-        Criteria criteria = songListCriteria.getExecutableCriteria(sessionFactory.getCurrentSession());
-
+    private List<Song> createSongList(DetachedCriteria bookListCriteria) {
+        Criteria criteria = bookListCriteria.getExecutableCriteria(sessionFactory.getCurrentSession());
         criteria.addOrder(Order.asc("s.name")).setProjection(songProjection).setResultTransformer(Transformers.aliasToBean(Song.class));
         return criteria.list();
     }

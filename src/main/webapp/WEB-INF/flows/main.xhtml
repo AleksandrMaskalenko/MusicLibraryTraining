@@ -20,7 +20,7 @@
             <h:form id="songsForm">
 
 
-                  <p:dataGrid rowIndexVar="rowIndex" columns="2" lazy="true" var="b" value="${libraryFacade.songs}"  id="songsList" styleClass="songs_list"  paginator="true" rows="4" paginatorPosition="bottom"
+                  <p:dataGrid rowIndexVar="rowIndex" columns="2" lazy="true" var="s" value="${libraryFacade.songs}"  id="songsList" styleClass="songs_list"  paginator="true" rows="4" paginatorPosition="bottom"
                               rowsPerPageTemplate="4,10,20" paginatorTemplate="{RowsPerPageDropdown} {PageLinks}"  paginatorAlwaysVisible="true" emptyMessage="">
 
 
@@ -47,9 +47,10 @@
 
                                     </div>
                                     <span>#{s.author}</span>
-                                    <p><strong>#{msg.time}:</strong>#{s.time}</p>
-                                    <p><strong>#{msg.album}</strong>#{s.album}</p>
-                                    <p><strong>#{msg.publish_date}</strong>#{s.publishdate}</p>
+                                    <p><strong>#{msg.time}: </strong>#{s.time}</p>
+                                    <p><strong>#{msg.album}: </strong>#{s.album}</p>
+                                    <p><strong>#{msg.publish_date}: </strong>#{s.publishdate}</p>
+                                    <p><strong>#{msg.genre}: </strong>#{s.genre}</p>
 
                               </div>
 
@@ -76,7 +77,7 @@
 
       </ui:define>
 
-      <ui:define name="song_count">
+      <ui:define name="songs_count">
             <div class="box-sh">
                   <h1><p:outputLabel id="songsCount" value="#{msg.song_count} : #{libraryFacade.songs.size()}"/> </h1>
 

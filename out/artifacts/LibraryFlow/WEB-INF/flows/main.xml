@@ -6,6 +6,18 @@
 
     <view-state id="main">
 
+        <transition on="searchByLetter">
+            <evaluate expression="libraryFacade.searchSongsByLetter()" />
+        </transition>
+
+        <transition on="searchByGenre">
+            <evaluate expression="libraryFacade.searchSongsByGenre()" />
+        </transition>
+
+        <transition on="searchByText">
+            <evaluate expression="libraryFacade.searchSongsByText()" />
+        </transition>
+
     </view-state>
 
 

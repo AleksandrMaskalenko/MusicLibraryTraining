@@ -1,11 +1,12 @@
 package springlibrary.entities;
 
+import java.io.Serializable;
 import java.util.Arrays;
 
 /**
  * Created by aleksandrsmaskalenko on 04/03/2017.
  */
-public class Song {
+public class Song implements Serializable{
     private int id;
     private String name;
     private byte[] content;
@@ -17,6 +18,23 @@ public class Song {
     private Album album;
     private Author author;
     private PublishDate publishdate;
+
+    public Song() {
+    }
+
+    public Song(int id, String name, byte[] content, String time, byte[] image, Integer rating, Long voteCount, Genre genre, Album album, Author author, PublishDate publishdate) {
+        this.id = id;
+        this.name = name;
+        this.content = content;
+        this.time = time;
+        this.image = image;
+        this.rating = rating;
+        this.voteCount = voteCount;
+        this.genre = genre;
+        this.album = album;
+        this.author = author;
+        this.publishdate = publishdate;
+    }
 
     public int getId() {
         return id;

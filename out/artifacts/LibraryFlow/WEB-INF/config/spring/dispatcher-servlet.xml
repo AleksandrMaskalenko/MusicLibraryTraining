@@ -22,10 +22,10 @@
         <property name="order" value="2"/>
     </bean>
 
-    <bean name="resourceHandlerJSF" class="org.springframework.faces.webflow.JsfResourceRequestHandler" />
+    <bean name="resourceHandlerJSF" class="org.springframework.faces.webflow.JsfResourceRequestHandler"/>
 
     <bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
-        <property name="order" value="1" />
+        <property name="order" value="1"/>
         <property name="mappings">
             <value>
                 /javax.faces.resource/**=resourceHandlerJSF
@@ -33,9 +33,11 @@
         </property>
     </bean>
 
+
     <bean class="org.springframework.faces.webflow.JsfFlowHandlerAdapter">
         <property name="flowExecutor" ref="flowExecutor"/>
     </bean>
+
 
     <bean class="org.springframework.web.servlet.view.UrlBasedViewResolver">
         <property name="viewClass" value="org.springframework.faces.mvc.JsfView"/>
@@ -44,28 +46,32 @@
     </bean>
 
     <bean id="msg" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
-        <property name="basename" value="/WEB-INF/locales/messages" />
-        <property name="defaultEncoding" value="UTF-8" />
+        <property name="basename" value="/WEB-INF/locales/messages"/>
+        <property name="defaultEncoding" value="UTF-8"/>
     </bean>
 
     <bean id="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
         <property name="jndiName" value="jdbc/Library"/>
     </bean>
 
+
     <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
         <property name="dataSource" ref="dataSource"/>
-        <property name="configLocation" value="classpath:hibernate.cfg.xml" />
+        <property name="configLocation" value="classpath:hibernate.cfg.xml"/>
     </bean>
 
-    <tx:annotation-driven />
+
+    <tx:annotation-driven/>
     <bean id="transactionManager"
           class="org.springframework.orm.hibernate4.HibernateTransactionManager">
-        <property name="sessionFactory" ref="sessionFactory" />
+        <property name="sessionFactory" ref="sessionFactory"/>
     </bean>
 
+
     <bean id="localeResolver" class="org.springframework.web.servlet.i18n.SessionLocaleResolver">
-        <property name="defaultLocale" value="en"/>
+        <property name="defaultLocale" value="ru"/>
     </bean>
+
 
     <mvc:interceptors>
         <mvc:interceptor>
