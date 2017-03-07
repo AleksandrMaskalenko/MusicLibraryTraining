@@ -1,57 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="312defcd-f15b-4b66-a607-d07281817cef" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/classes/springlibrary/DAO/impl/TestBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/springlibrary/DAO/impl/TestBean.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/springlibrary/DAO/impl/SongDAOimpl.java" afterPath="$PROJECT_DIR$/src/main/java/springlibrary/DAO/impl/SongDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/classes/springlibrary/DAO/impl/SongDAOimpl.class" afterPath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/classes/springlibrary/DAO/impl/SongDAOimpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/classes/springlibrary/DAO/interfaces/SongDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/classes/springlibrary/DAO/interfaces/SongDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/classes/springlibrary/entities/Author.class" afterPath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/classes/springlibrary/entities/Author.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/classes/springlibrary/entities/Song.class" afterPath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/classes/springlibrary/entities/Song.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/classes/springlibrary/objects/LibraryFacade.class" afterPath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/classes/springlibrary/objects/LibraryFacade.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/classes/springlibrary/objects/Utils.class" afterPath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/classes/springlibrary/objects/Utils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springlibrary/DAO/impl/SongDAOimpl.class" afterPath="$PROJECT_DIR$/target/classes/springlibrary/DAO/impl/SongDAOimpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springlibrary/DAO/interfaces/SongDAO.class" afterPath="$PROJECT_DIR$/target/classes/springlibrary/DAO/interfaces/SongDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springlibrary/entities/Author.class" afterPath="$PROJECT_DIR$/target/classes/springlibrary/entities/Author.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springlibrary/entities/Song.class" afterPath="$PROJECT_DIR$/target/classes/springlibrary/entities/Song.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springlibrary/objects/LibraryFacade.class" afterPath="$PROJECT_DIR$/target/classes/springlibrary/objects/LibraryFacade.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springlibrary/objects/Utils.class" afterPath="$PROJECT_DIR$/target/classes/springlibrary/objects/Utils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/LibraryFlow_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/LibraryFlow_war_exploded.xml" />
+    <list default="true" id="312defcd-f15b-4b66-a607-d07281817cef" name="Default" comment="third">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicLibrary.iml" afterPath="$PROJECT_DIR$/MusicLibrary.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/classes/springlibrary/Song.hbm.xml" afterPath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/classes/springlibrary/Song.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/config/spring/applicationContext.xml" afterPath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/config/spring/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/config/spring/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/config/spring/dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/flows/main.xhtml" afterPath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/flows/main.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/flows/main.xml" afterPath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/flows/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/locales/messages.properties" afterPath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/locales/messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/locales/messages_en.properties" afterPath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/locales/messages_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/locales/messages_ru.properties" afterPath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/locales/messages_ru.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/templates/genres.xhtml" afterPath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/templates/genres.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/templates/letters.xhtml" afterPath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/templates/letters.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/templates/library.xhtml" afterPath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/templates/library.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/templates/search.xhtml" afterPath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/templates/search.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/springlibrary/DAO/interfaces/SongDAO.java" afterPath="$PROJECT_DIR$/src/main/java/springlibrary/DAO/interfaces/SongDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/springlibrary/entities/Author.java" afterPath="$PROJECT_DIR$/src/main/java/springlibrary/entities/Author.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/springlibrary/entities/Song.java" afterPath="$PROJECT_DIR$/src/main/java/springlibrary/entities/Song.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/springlibrary/objects/LibraryFacade.java" afterPath="$PROJECT_DIR$/src/main/java/springlibrary/objects/LibraryFacade.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/springlibrary/objects/Utils.java" afterPath="$PROJECT_DIR$/src/main/java/springlibrary/objects/Utils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/main.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/main.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/main.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/locales/messages.properties" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/locales/messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/locales/messages_en.properties" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/locales/messages_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/locales/messages_ru.properties" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/locales/messages_ru.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/genres.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/genres.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/letters.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/letters.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/library.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/library.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/search.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/search.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/library.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/library.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springlibrary/Song.hbm.xml" afterPath="$PROJECT_DIR$/target/classes/springlibrary/Song.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LibraryFlow/resources/css/main.css" afterPath="$PROJECT_DIR$/out/artifacts/LibraryFlow/resources/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LibraryFlow/resources/js/library.js" afterPath="$PROJECT_DIR$/out/artifacts/LibraryFlow/resources/js/library.js" />
     </list>
     <ignored path="LibraryFlow.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -236,8 +190,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="3" />
+    <option name="y" value="26" />
+    <option name="width" value="1402" />
+    <option name="height" value="813" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -557,108 +513,6 @@
               <option name="myItemId" value="springlibrary" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enums" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MusicLibrary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MusicLibrary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springlibrary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MusicLibrary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MusicLibrary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springlibrary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DAO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interfaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MusicLibrary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MusicLibrary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springlibrary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DAO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -690,7 +544,6 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="JPA.DatabaseSchemaImportDialog" value="194849e7-536f-4e7a-b7dd-8e05b6c884a6" />
-    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="ImportMappingsDialog.RecentPackages">
@@ -1244,7 +1097,7 @@
       <workItem from="1488833586648" duration="87000" />
       <workItem from="1488867355022" duration="165000" />
       <workItem from="1488867924388" duration="4779000" />
-      <workItem from="1488874674818" duration="9623000" />
+      <workItem from="1488874674818" duration="10009000" />
     </task>
     <task id="LOCAL-00001" summary="second">
       <created>1488812944878</created>
@@ -1253,11 +1106,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488812944878</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="third">
+      <created>1488884702810</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1488884702810</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99941000" />
+    <option name="totallyTimeSpent" value="100327000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1269,7 +1129,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="3" y="26" width="1402" height="813" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1297,7 +1157,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32848838" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32848838" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2948718" sideWeight="0.53707415" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3319027" sideWeight="0.46292585" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34117648" sideWeight="0.46292585" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3015873" sideWeight="0.5154867" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1329,7 +1189,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second" />
-    <option name="LAST_COMMIT_MESSAGE" value="second" />
+    <MESSAGE value="third" />
+    <option name="LAST_COMMIT_MESSAGE" value="third" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1342,13 +1203,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/springlibrary/PublishDate.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.1.5.RELEASE/spring-context-4.1.5.RELEASE.jar!/org/springframework/context/support/ReloadableResourceBundleMessageSource.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1459,6 +1313,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="20" column="0" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1469,6 +1324,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
           <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1750,6 +1606,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1575">
           <caret line="150" column="23" lean-forward="true" selection-start-line="150" selection-start-column="23" selection-end-line="150" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/webContexts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
