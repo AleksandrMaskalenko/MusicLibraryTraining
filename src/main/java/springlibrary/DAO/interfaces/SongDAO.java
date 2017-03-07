@@ -13,4 +13,5 @@ public interface SongDAO {
     List<Song> getSongs(String songName);
     List<Song> getSongs(Genre genre);
     List<Song> getSongs(Character letter);
+    Object getFieldValue(Integer id, String fieldName);
 }

@@ -13,6 +13,8 @@ import java.util.List;
 @Scope("singleton")
 public class LibraryFacade {
 
+    private static final String FIELD_CONTENT = "content";
+
     @Autowired
     private SongDAO songDAO;
 
@@ -47,5 +49,9 @@ public class LibraryFacade {
                 break;
         }
 
+    }
+
+    public byte[] getContent(int id) {
+        return (byte[])songDAO.getFieldValue(id, FIELD_CONTENT);
     }
 }

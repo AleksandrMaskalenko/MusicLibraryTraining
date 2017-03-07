@@ -86,6 +86,15 @@ public class SongDAOImpl implements SongDAO {
         return songs;
     }
 
+    @Override
+    @Transactional
+    public Object getFieldValue(Integer id, String fieldName) {
+        Criteria criteria = sessionFactory.getCurrentSession().createCriteria(Song.class);
+        criteria.setProjection(Property.forName(fieldName));
+        criteria.add(Restrictions.eq("id", id));
+        return criteria.uniqueResult();
+    }
+
     private DetachedCriteria createSongCriteria() {
         DetachedCriteria songListCriteria = DetachedCriteria.forClass(Song.class, "s");
         createAliases(songListCriteria);
